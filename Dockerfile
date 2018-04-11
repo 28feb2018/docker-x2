@@ -11,3 +11,4 @@ RUN echo "udevadm trigger"  >> /root/start.sh
 RUN echo "startx"           >> /root/start.sh
 
 RUN echo fvwm               > /root/.xinitrc
+CMD sh /root/start.sh
